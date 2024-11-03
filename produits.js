@@ -46,7 +46,7 @@ const products = [
         category: "Fruits de saison",
         price: 100,       
         image: "images-ac-fruits/Orange-img.png",
-        description: "Description du Produit 2"
+        description: "Description du Produit 6"
     },
     {
         id: 7,
@@ -54,7 +54,7 @@ const products = [
         category: "Fruits de saison",
         price: 100,
         image: "images-ac-fruits/Poire-img.png",
-        description: "Description du Produit 6"
+        description: "Description du Produit 7"
     },
     {
     
@@ -63,7 +63,7 @@ const products = [
     category: "Fruits tropicaux",
     price: 100,
     image: "images-ac-fruits/Coco-img.png",
-    description: "Description du Produit 7"
+    description: "Description du Produit 8"
 },
     // Ajoute d'autres produits ici
 
