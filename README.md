@@ -7,7 +7,7 @@ Hello folks :blush: this is a personal project i started in april or may 2024.
 This is an attempt to made a kind of online shop or marketplace, but focus with a theme i like, which is Animal Crossing, because the notions i try to learn are hard and i decided to use a subject i like to progress in a fun and joyfull way... Please note that most of the designs (illusttations of the objects and characters) are not my properties, this is Nintendo's. I only created this project for a personal use, without any commercial purpose. This is like fanart but in webdesign...
 
 <div align="center">
-<img src="https://static.tvtropes.org/pmwiki/pub/images/tom_nook_nh.png" alt="illustration_Tom_from_AC" width="200"/>
+<img src="https://static.tvtropes.org/pmwiki/pub/images/tom_nook_nh.png" alt="illustration_Tom_from_AC" width="100"/>
 </div>
 
 ## A little secret about this project... :sparkles: 
