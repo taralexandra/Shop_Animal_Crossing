@@ -22,14 +22,14 @@ const products = [
         category: "Fruits de saison",
         price: 100,
         image: "https://static.wikia.nocookie.net/animalcrossing/images/0/07/Pomme-NH.png/revision/latest?cb=20200429035640&path-prefix=fr",
-        description: "Description du Produit 2"
+        description: "Description du Produit 3"
     },
     {
         id: 4,
         name: "Cerises",
         category: "Fruits de saison",
         price: 100,        image: "https://static.wikia.nocookie.net/animalcrossing/images/2/29/Cerise-NH.png/revision/latest?cb=20200429031450&path-prefix=fr",
-        description: "Description du Produit 2"
+        description: "Description du Produit 4"
     },
     {
         id: 5,
@@ -37,7 +37,7 @@ const products = [
         category: "Fruits de saison",
         price: 100,        
         image: "https://static.wikia.nocookie.net/animalcrossing/images/d/de/P%C3%AAche-NH.png/revision/latest?cb=20200429031517&path-prefix=fr",
-        description: "Description du Produit 2"
+        description: "Description du Produit 5"
     },
     {
         id: 6,
@@ -53,7 +53,7 @@ const products = [
         category: "Fruits de saison",
         price: 100,
         image: "https://static.wikia.nocookie.net/animalcrossing/images/e/e2/Poire-NH.png/revision/latest?cb=20200429031714&path-prefix=fr",
-        description: "Description du Produit 2"
+        description: "Description du Produit 6"
     },
     {
     
@@ -62,7 +62,7 @@ const products = [
     category: "Fruits tropicaux",
     price: 100,
     image: "https://static.wikia.nocookie.net/animalcrossing/images/a/a4/Noix_de_coco-NH.png/revision/latest?cb=20200429031729&path-prefix=fr",
-    description: "Description du Produit 2"
+    description: "Description du Produit 7"
 },
     // Ajoute d'autres produits ici
 
