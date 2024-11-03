@@ -5,7 +5,7 @@ const products = [
         name: "Citrons vert",
         category: "Fruits tropicaux",
         price: 100,
-        image: "images-ac-fruits/Citron_vert-img.webp",
+        image: "images-ac-fruits/Citron_vert-img.png",
         description: "Description du Produit 1"
     },
     {
@@ -13,7 +13,7 @@ const products = [
         name: "Navets",
         category: "Légumes",
         price: 100,
-        image: "images-ac-fruits/Navet-img.webp",
+        image: "images-ac-fruits/Navet-img.png",
         description: "Description du Produit 2"
     },
     {
@@ -21,7 +21,7 @@ const products = [
         name: "Pommes",
         category: "Fruits de saison",
         price: 100,
-        image: "images-ac-fruits/Pomme-img.webp",
+        image: "images-ac-fruits/Pomme-img.png",
         description: "Description du Produit 3"
     },
     {
@@ -29,7 +29,7 @@ const products = [
         name: "Cerises",
         category: "Fruits de saison",
         price: 100,        
-        image: "images-ac-fruits/Cerise-img.webp",
+        image: "images-ac-fruits/Cerise-img.png",
         description: "Description du Produit 4"
     },
     {
@@ -37,7 +37,7 @@ const products = [
         name: "Pêches",
         category: "Fruits de saison",
         price: 100,        
-        image: "images-ac-fruits/Peche-img.webp",
+        image: "images-ac-fruits/Peche-img.png",
         description: "Description du Produit 5"
     },
     {
@@ -45,7 +45,7 @@ const products = [
         name: "Oranges",
         category: "Fruits de saison",
         price: 100,       
-        image: "images-ac-fruits/Orange-img.webp",
+        image: "images-ac-fruits/Orange-img.png",
         description: "Description du Produit 2"
     },
     {
@@ -53,7 +53,7 @@ const products = [
         name: "Poires",
         category: "Fruits de saison",
         price: 100,
-        image: "images-ac-fruits/Poire-img.webp",
+        image: "images-ac-fruits/Poire-img.png",
         description: "Description du Produit 6"
     },
     {
@@ -62,7 +62,7 @@ const products = [
     name: "Noix de coco",
     category: "Fruits tropicaux",
     price: 100,
-    image: "images-ac-fruits/Coco-img.webp",
+    image: "images-ac-fruits/Coco-img.png",
     description: "Description du Produit 7"
 },
     // Ajoute d'autres produits ici
