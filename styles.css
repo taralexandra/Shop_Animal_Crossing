@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Cette ligne est optionnelle, mais elle peut être utile pour mieux gérer la taille des éléments */
+}
+
+
+.holtwood-one-sc-regular {
+    font-family: "Holtwood One SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .peralta-regular {
+    font-family: "Peralta", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  h1 {
+    font-family: "Holtwood One SC", serif;
+    color: rgb(255, 242, 226);
+  }
+
+  h3 {
+    font-family: "Peralta", serif;
+    font-size: 1em;
+    color:chocolate;
+  }
+
+  header {
+    background-color: chocolate; /* Couleur de fond du header */
+    color: white; /* Couleur du texte */
+    padding: 20px; /* Espacement intérieur du header */
+    display: flex; /* Utilisation de flexbox pour aligner les éléments */
+    justify-content: space-between; /* Alignement horizontal des éléments */
+    align-items: center; /* Alignement vertical des éléments */
+    margin-bottom:  20px;
+    box-shadow: 0px 0px 3px 6px rgba(0, 0, 0, 0.10);
+
+}
+
+
+  nav a {
+    color: white; /* Couleur des liens */
+    text-decoration: none; /* Supprime les soulignements des liens */
+    margin-left: 20px; /* Espacement entre les boutons */
+    border-radius: 20px; /* Bordures arrondies */
+    background-color: chocolate; /* Couleur de fond */
+    padding: 10px 20px; /* Espacement à l'intérieur des boutons */
+    font-weight: bold;
+    font-family: "Holtwood One SC", serif;
+    font-size: 0.88em;
+    border-color: rgb(255, 242, 226);
+    border: solid 2px;
+}
+
+/* Inscription */
+/* Style pour la pop-up */
+#signup-modal {
+    display: none; /* Par défaut, la pop-up est cachée */
+    position: fixed; /* Position fixe pour rester au-dessus du contenu */
+    z-index: 9999; /* Valeur de z-index élevée pour s'assurer que la pop-up est au-dessus du reste du contenu */
+    top: 50%; /* Position verticale au milieu de la fenêtre */
+    left: 50%; /* Position horizontale au milieu de la fenêtre */
+    transform: translate(-50%, -50%); /* Centre la pop-up horizontalement et verticalement */
+    background-color: #ffffff; /* Couleur de fond */
+    padding: 20px; /* Espacement intérieur */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2); /* Ombre portée */
+border: solid 4px chocolate;
+   
+}
+
+/* Style pour le contenu de la pop-up */
+.modal-content {
+    max-width: 400px; /* Largeur maximale de la pop-up */
+    margin: 0 auto; /* Centrage horizontal du contenu */
+}
+
+/* Style pour le bouton de fermeture */
+.close {
+    position: absolute; /* Position absolue par rapport à la pop-up */
+    top: 10px; /* Position verticale à 10 pixels du haut */
+    right: 10px; /* Position horizontale à 10 pixels de la droite */
+    cursor: pointer; /* Curseur pointer */
+    font-size: 20px; /* Taille de police */
+    color: red; /* Couleur du texte */
+}
+
+/* Style pour le formulaire */
+#signup-form {
+    margin-top: 20px; /* Espacement par rapport au haut de la pop-up */
+}
+
+/* Style pour les étiquettes du formulaire */
+label {
+    display: block; /* Affichage en bloc pour chaque étiquette */
+    margin-bottom: 5px; /* Espacement entre les étiquettes */
+    font-weight: bold; /* Texte en gras */
+}
+
+/* Style pour les champs de saisie du formulaire */
+input[type="email"],
+input[type="text"] {
+    width: 100%; /* Largeur à 100% */
+    padding: 8px; /* Espacement intérieur */
+    margin-bottom: 10px; /* Espacement entre les champs */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 4px; /* Coins arrondis */
+}
+
+/* Style pour le bouton de soumission du formulaire */
+#signup-submit-btn {
+    width: 100%; /* Largeur à 100% */
+    padding: 10px; /* Espacement intérieur */
+    background-color: #4CAF50; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 4px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointer */
+}
+
+/* Style pour le bouton de soumission du formulaire lorsqu'il est désactivé */
+#signup-submit-btn:disabled {
+    background-color: #cccccc; /* Couleur de fond grise */
+    cursor: not-allowed; /* Curseur non autorisé */
+}
+
+
+/* Body */
+
+body {
+
+    background-color: rgb(255, 242, 226);
+}
+
+/* Produits */
+
+.product {
+    background-color: #ffffffa2;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.041);
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Deux colonnes de largeur égale */
+    gap: 20px;
+}
+
+/* Pour assurer que les éléments prennent une place dans la grille et que les 
+   produits sont alignés correctement, nous devons également spécifier la 
+   propriété grid-auto-rows */
+.products {
+    grid-auto-rows: auto; /* La hauteur des lignes est automatique */
+}
+
+
+/* Custom des voutons filtres */
+.filters {
+    text-align: center;
+}
+.filters button {
+    color: white; /* Couleur des liens */
+    text-decoration: none; /* Supprime les soulignements des liens */
+    margin-left: 20px; /* Espacement entre les boutons */
+    border-radius: 20px; /* Bordures arrondies */
+    background-color: chocolate; /* Couleur de fond */
+    padding: 10px 20px; /* Espacement à l'intérieur des boutons */
+    font-weight: bold;
+    font-family: "Peralta", serif;
+    font-size: 0.77em;
+    border: none;
+    margin-bottom: 20px;
+    display: inline-block;
+
+}
+
+.filters button:hover {
+    background-color: rgb(167, 82, 21);
+}
+
+.filters button.selected {
+    background-color: green; /* Couleur du fond du bouton sélectionné */
+    color: white; /* Couleur du texte */
+}
+
+/* Section Pop Up titre */
+
+.popupSection {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: chocolate;
+    font-family: "Holtwood One SC", serif;
+}
+
+.containerBtnPop {
+    text-align: center;
+}
+
+.popupBtn {
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    font-family: "Peralta", serif;
+    display: inline-block;
+    
+}
+
+.popup {
+    display: none; /* Cacher la pop-up par défaut */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: red;
+}
+
+.img-ophelie {
+    margin-top: 20px;
+    height: 150px;
+    width: auto;
+}
+
+/* Footer */
+
+
+footer {
+
+    background-color: chocolate;
+}
